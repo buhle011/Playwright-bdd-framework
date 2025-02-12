@@ -35,10 +35,6 @@ Before(async function () {
     expect(await page.locator('div[aria-label="Products"] button[title="Web Testing"] span').isVisible()).toBeTruthy();
   });
 
-
-
-
-
   Given('User Navigates to Browserstack Homepage', async function () {
     await page.goto("https://www.browserstack.com/");
   });
